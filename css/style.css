@@ -1,0 +1,123 @@
+/*must have*/
+body {
+  margin: 0;
+  text-align: center; /*center everything inside*/
+  font-family: 'Oxanium', cursive, serif;/*websafe font, google font*/
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  color: #d63447;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #d63447;
+}
+
+#role {
+  font-weight: normal;
+}
+
+h3 {
+  color: #fe346e;
+}
+
+#signature {
+  color: #fe346e;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+a {
+  color: #fe346e;
+  text-decoration: none;
+  padding: 30px;
+}
+
+#top-container {
+  background-color: #beebe9;
+  position: relative;
+  padding-top: 100px;
+}
+
+#top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+#bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+#middle-container {
+  background-color: #fffdf9;
+}
+
+.profile, .skills {
+  margin: 50px auto;
+}
+
+.contact-me {
+  margin: 50px auto;
+  padding-bottom: 25px;
+}
+
+#skill-row1 {
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+  margin: 100px auto;
+}
+
+#skill-row2 {
+  line-height: 2;
+  text-align: right;
+  width: 50%;
+  margin: 100px auto;
+}
+
+#skill-image1 {
+  width: 20%;
+  float: left;
+  padding-right: 30px;
+}
+
+#skill-image2 {
+  width: 20%;
+  float: right;
+  padding-left: 30px;
+}
+
+#bottom-container {
+  background-color: #beebe9;
+  padding: 30px;
+}
+
+.btn {
+  background-color: #beebe9;
+  width: 150px;
+  height: 20px;
+  color: white;
+  border-radius: 50%;
+}
+
+.btn:hover {
+  font-size: 20px;
+  color: #d63447;
+  font-weight: bold;
+}
+
+hr {
+  height: 0;
+  border-top: 10px dotted #beebe9;
+  width: 50px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
